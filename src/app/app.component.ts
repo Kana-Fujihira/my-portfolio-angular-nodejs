@@ -15,6 +15,7 @@ import { ProjectlistComponent } from './projectlist/projectlist.component';
   ],
   template: `
     <main>
+      <app-navbar></app-navbar>
       <a [routerLink]="['/']"> </a>
       <section class="content">
         <router-outlet></router-outlet>

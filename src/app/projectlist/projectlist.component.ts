@@ -1,9 +1,17 @@
+import { RouterModule, RouterLink, RouterOutlet } from '@angular/router';
 import { Component } from '@angular/core';
-
+import { CommonModule } from '@angular/common';
+import { ProjectDetailsComponent } from '../project-details/project-details.component';
 @Component({
   selector: 'app-projectlist',
   standalone: true,
-  imports: [],
+  imports: [
+    RouterModule,
+    RouterLink,
+    RouterOutlet,
+    CommonModule,
+    ProjectDetailsComponent,
+  ],
   template: `
     <div class="container text-center">
       <div class="row">
@@ -16,7 +24,9 @@ import { Component } from '@angular/core';
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a [routerLink]="['/project-details']" class="btn btn-primary"
+                >Go somewhere</a
+              >
             </div>
           </div>
         </div>
@@ -30,7 +40,9 @@ import { Component } from '@angular/core';
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a [routerLink]="['/project-details']" class="btn btn-primary"
+                  >Go somewhere</a
+                >
               </div>
             </div>
           </div>
@@ -45,7 +57,9 @@ import { Component } from '@angular/core';
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <a [routerLink]="['/project-details']" class="btn btn-primary"
+                  >Go somewhere</a
+                >
               </div>
             </div>
           </div>
