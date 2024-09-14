@@ -9,22 +9,12 @@ import { NavbarComponent } from './common/navbar/navbar.component';
   imports: [RouterOutlet, RouterLink, RouterModule, NavbarComponent],
   template: `
     <main>
-      <a [routerLink]="['/']">
-        <header class="brand-name">
-          <img
-            class="brand-logo"
-            src="/assets/logo.svg"
-            alt="logo"
-            aria-hidden="true"
-          />
-        </header>
-      </a>
       <section class="content">
+        <app-navbar></app-navbar>
         <router-outlet></router-outlet>
       </section>
     </main>
   `,
-  templateUrl: './app.component.html',
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
