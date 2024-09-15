@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './common/navbar/navbar.component';
-import { ProjectlistComponent } from './projectlist/projectlist.component';
+import { ProjectlistComponent } from './project/projectlist/projectlist.component';
 @Component({
   selector: 'app-root',
   standalone: true,

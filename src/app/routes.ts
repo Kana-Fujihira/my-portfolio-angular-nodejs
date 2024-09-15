@@ -1,7 +1,6 @@
 import { Routes } from '@angular/router';
-import { NavbarComponent } from './common/navbar/navbar.component';
-import { ProjectlistComponent } from './projectlist/projectlist.component';
-import { ProjectDetailsComponent } from './project-details/project-details.component';
+import { ProjectlistComponent } from './project/projectlist/projectlist.component';
+import { ProjectDetailsComponent } from './project/project-details/project-details.component';
 
 const routeConfig: Routes = [
   {
