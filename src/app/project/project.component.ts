@@ -3,7 +3,6 @@ import { CommonModule } from '@angular/common';
 import { ProjectCardComponent } from './project-card/project-card.component';
 import { Project } from '../project';
 import { ProjectService } from '../project.service';
-
 @Component({
   selector: 'app-project',
   standalone: true,
