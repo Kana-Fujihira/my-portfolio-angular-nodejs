@@ -1,10 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
-import { ProjectlistComponent } from './projectlist/projectlist.component';
+import { ProjectCardComponent } from './project-card/project-card.component';
 
 @NgModule({
   declarations: [],
-  imports: [CommonModule, ProjectlistComponent, ProjectDetailsComponent],
+  imports: [CommonModule, ProjectCardComponent, ProjectDetailsComponent],
 })
 export class ProjectModule {}

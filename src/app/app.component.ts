@@ -2,7 +2,8 @@ import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './common/navbar/navbar.component';
-import { ProjectlistComponent } from './project/projectlist/projectlist.component';
+import { ProjectComponent } from './project/project.component';
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -11,7 +12,7 @@ import { ProjectlistComponent } from './project/projectlist/projectlist.componen
     RouterLink,
     RouterModule,
     NavbarComponent,
-    ProjectlistComponent,
+    ProjectComponent,
   ],
   template: `
     <main>

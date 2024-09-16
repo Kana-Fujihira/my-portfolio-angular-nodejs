@@ -1,12 +1,12 @@
 import { Routes } from '@angular/router';
-import { ProjectlistComponent } from './project/projectlist/projectlist.component';
+import { ProjectComponent } from './project/project.component';
 import { ProjectDetailsComponent } from './project/project-details/project-details.component';
 
 const routeConfig: Routes = [
   {
     path: '',
-    component: ProjectlistComponent,
-    title: 'Project List',
+    component: ProjectComponent,
+    title: 'Project',
   },
   {
     path: 'project-details',
