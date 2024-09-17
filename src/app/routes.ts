@@ -1,16 +1,15 @@
 import { Routes } from '@angular/router';
-import { NavbarComponent } from './common/navbar/navbar.component';
-import { ProjectlistComponent } from './projectlist/projectlist.component';
-import { ProjectDetailsComponent } from './project-details/project-details.component';
+import { ProjectComponent } from './project/project.component';
+import { ProjectDetailsComponent } from './project/project-details/project-details.component';
 
 const routeConfig: Routes = [
   {
     path: '',
-    component: ProjectlistComponent,
-    title: 'Project List',
+    component: ProjectComponent,
+    title: 'Project',
   },
   {
-    path: 'project-details',
+    path: 'project-details/:id',
     component: ProjectDetailsComponent,
     title: 'Project details',
   },

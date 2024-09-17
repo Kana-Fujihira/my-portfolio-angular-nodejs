@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule],
   template: `
     <section>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top ">
         <div class="container-fluid">
           <a class="navbar-brand active" href="#">Logo</a>
           <button
