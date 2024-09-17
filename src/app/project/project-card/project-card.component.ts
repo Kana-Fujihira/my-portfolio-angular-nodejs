@@ -25,9 +25,7 @@ import { Project } from '../../project';
               <p class="card-text">
                 {{ project.description }}
               </p>
-              <p class="card-text">
-                {{ project.skil }}
-              </p>
+              <p class="card-text"></p>
               <a
                 [routerLink]="['/project-details', project.id]"
                 class="btn btn-primary"
