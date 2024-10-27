@@ -8,6 +8,7 @@ const routeConfig: Routes = [
     component: ProjectComponent,
     title: 'Project',
   },
+  
   {
     path: 'project-details/:id',
     component: ProjectDetailsComponent,
